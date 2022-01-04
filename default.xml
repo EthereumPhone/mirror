@@ -7,6 +7,9 @@
   <default revision="master"
            remote="github"
            sync-j="4" />
+  
+  <remote  name="ethGit" 
+           fetch="https://github.com/EthereumPhone" />
 
   <project name="LineageOS/AR6kSDK.3.1" />
   <project name="LineageOS/AndroidAsync" />
@@ -149,7 +152,7 @@
   <project name="LineageOS/android_device_google_bonito" />
   <project name="LineageOS/android_device_google_bramble" />
   <project name="LineageOS/android_device_google_coral" />
-  <project name="LineageOS/android_device_google_crosshatch" />
+  <project name="android_device_google_crosshatch" remote="ethGit"/>
   <project name="LineageOS/android_device_google_dragon" />
   <project name="LineageOS/android_device_google_flame" />
   <project name="LineageOS/android_device_google_gs101" />
